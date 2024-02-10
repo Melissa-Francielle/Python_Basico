@@ -1,0 +1,2 @@
+São operadores utilizados para comparar se dois 
+objetos testados ocupam a mesma posição na memoria 

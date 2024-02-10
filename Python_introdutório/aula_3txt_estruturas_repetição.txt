@@ -1,0 +1,101 @@
+O que são? 
+
+São estruturas utilizadas para repetir um trecho 
+de codigo um determinado numero de vezes 
+Esse número pode ser conhecido previamente ou determinado 
+através de uma expressão lógica 
+
+Comando for 
+O for é usado para percorrer um objeto iteravel. Faz sentido usar 
+for quando sabemos o numero exato de vezes que nosso bloco 
+de código deve ser executado, ou quando queremos percorrer um objeto iterável 
+
+texto = input("Informe um texto") #informa os texto 
+VOGAIS = "AEIOU" #constante de vogais
+
+
+    
+
+
+print() #adiciona uma quebra de linha 
+
+O for funciona basicamente com duas partes
+a primeira - (qual é o objeto iteravel que eu quero percorre?)
+nesse caso do exemplo
+for letra in "texto(objeto iteravel)":
+
+letra representa o item que está sendo iterado naquele momento 
+como assim?
+exemplo = string = python 
+Na primeira vez que ele faz o loop a "letra" vai ter um valor p, no segundo laço 
+letra vai ter valor y
+o for faz uma atribuição "for letra in texto:" nessa parte
+vai colocando cada item percorrido dentro da variavel letra 
+ Nesse ex, letra é o nome dado, pode ser qualquer outro nome 
+
+if letra.upper() in VOGAIS:
+Aqui "letra.upper()" transforma letra em maiscula 
+E tão é verificado se ele esta nas vogais 
+
+imprime a letra que possue na palavra digitada 
+        print(letra, end="")
+
+for / else
+for letra in texto:
+    if letra.upper() in VOGAIS:
+        print(letra, end="")
+else:
+    print() #adiciona uma quebra de linha #executa no final do laço 
+    print("executa no final do laço")
+O else não é muito comum 
+
+Funçao range
+Range é uma função built in do Python, ela é usada
+para produzir uma sequencia de numeros inteiros a partir de um 
+inicio (inclusivo) para um fim (exclusivo). Se usarmos range(i, j)
+será produzido 
+
+i, i +1, i+2, i+3... j-1
+
+ela receba 3 argumentos: stop(obrigatorio), star(opcional) e step (opcional)
+
+list (range(4))
+#[0, 1, 2, 3] 
+se for colocado no terminal range(4) não vai aparecer os numeros como saida
+somente o conjunto (0, 4)
+é necessario que seja list(range(4))
+para que seja retornado uma lista de numeros 
+
+é possivel 
+list (range(0, 10))
+onde ele vai de 0 - 9
+
+range com o for 
+print("Range com o for")
+for numero in range(0(start), 11(Stop)):
+    print(numero, end=" ")
+
+#0 1 2 3 4 5 6 7 8 9 10 (exibe a lista desejada)
+
+#exibindo a tabuada do 5 
+for numero in range (0(start), 51(stop), 5(step)):
+    print(numero, end= " ")
+#0 5 10 15 20 25 30 35 40 45 50 exibe a tabuada do 5 
+
+step vai fazer com que ele pule de 5 em 5 
+
+Comando while 
+Esse comando é usado para repetir um bloco de código várias vezes.
+Faz sentido usar while quando não sabemos o numero exato de vezes
+que nosso bloco de código deve ser executado 
+
+Break and continue
+
+O break pode ser usado em estruturas de laços infinito
+e em outras estruturas de laços
+
+Mas faz muito mais sentido em laços infinitos 
+Não existe somente o break, temos também o continue 
+
+Continue vai pular a execução 
+

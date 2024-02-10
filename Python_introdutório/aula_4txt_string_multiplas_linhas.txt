@@ -1,0 +1,10 @@
+string de multiplas linhas são definidas informando 
+3 aspas simples ou dupla durante a atribuição 
+Elas podem ocupar várias linhas do codigo, e todos os espaços em branco 
+são incluidos na string final 
+
+as strings triplas podem ser usadas para 
+menus e quer mandar mensagem para o usuario 
+
+é melhor do que ficar pulando linhas e recuos 
+é diretamente os espaços feito pelas strings multiplas

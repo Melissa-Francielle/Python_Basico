@@ -1,0 +1,20 @@
+O que são funções
+Função é um bloco de codigo identificado por nome 
+e pode receer uma lista de parametros, esses parametros podem 
+ou não ter valores padrões. Usar funções torna o codigo mais 
+legivel e possibilita o reaproveitamento de codigo. Programa baseado em 
+funções, é o mesmo que dizer que estamos progrmaando de maneira mais estruturada
+
+retorne valores
+Para retornar um valor, utilizamos a palavra reservada return 
+Toda função Python retorna none por padrão. Diferente de outras linguagens de programação 
+em Python uma função pode retornar mais de um valor 
+
+Argumentos nomeados 
+Funções também podem ser chamads usando argumentos nomeados da forma chave=valor 
+
+args e kwargs
+podemos combinar parametros obrigatorios com args e kwargs.
+Quando esses são definidos (*args(tupla) e **kwargs(dicionario))
+o método recebe os valores como tupla e diocionario respectivamente 
+

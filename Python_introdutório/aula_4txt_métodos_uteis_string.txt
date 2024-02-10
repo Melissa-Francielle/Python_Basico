@@ -1,0 +1,8 @@
+Intro
+
+A classe string em python é famosa por ser rica 
+em metodos e possuir uma interface muito facil de trabalhar
+
+em algumas linguagens manipular sequencias de caracteres não é
+um trabalho trivial, porém, em python esse trabalho é muito simples
+

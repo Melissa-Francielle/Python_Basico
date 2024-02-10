@@ -1,0 +1,27 @@
+são utilizados para verificar se um objeto está presente
+em uma sequencia 
+
+curso = "Cuso de python" 
+string é uma sequencia de caracteres 
+
+frutas = ["Laranja", "Uva", "Limão"]
+fruta é uma sequencia 
+
+saques = [1500, 100]
+saques que também é uma sequencia 
+
+"Python" in curso 
+#true
+quer saber se a String python esta na sequencia de curso
+
+"maçã" not in frutas
+#true
+O mesmo vale para maça
+
+200 in saques
+#false
+verifica se teve saque 200 no saques
+
+
+"IN" operador de associação 
+"in not" é o operador de associação quando não esta

@@ -1,0 +1,31 @@
+Convertendo tipos 
+
+Em alguns momentos é necessario será necesario o tipo 
+de uma variavel para manipular de forma diferente 
+
+Por ex:
+Variaveis do tipo string, que armazena numeros e precisamos 
+fazer alguma operação mateamtica com esse valor 
+
+#texto = f'idade {idade} preco {preco}'
+print(texto)
+#idade 28 preco 10.5
+
+coversão numero para string
+util para formatação e quando se quer enviar mensagem para o usuario
+com uma mensagem com uma variavel
+o que é necessario para concatenar strings
+é necessario ter outra string, não pode ter um numero 
+
+#Erro de conversão 
+
+preco = "python"
+print(float(preco))
+
+O preco não é um numero, ele é uma string 
+convertendo preco para float, pq ele não é um numero..
+ele tenta a conversação, mas ele avisa que deu erro.
+
+
+
+

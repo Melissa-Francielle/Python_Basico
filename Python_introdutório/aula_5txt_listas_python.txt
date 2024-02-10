@@ -1,0 +1,43 @@
+Criando listas
+Lista em Python podém armazenar de maneira sequencia qualquer
+tipo ed objeto. Podemos criar listas utilizado 
+o construtor list, a função range ou colocando valores separados
+por virgula dentro de colchetes. Listas são objetos mutaveis portanto 
+podemos alterar seus valores após a criação 
+
+Acesso direto 
+A lista é uma sequencia, portante podemos acessar seus dados 
+utilizando indices. Contamos o indice de determinada sequencia a partir 
+do zero. 
+
+Indices negativos 
+sequencias suportam indexação negativa. A contagem começa em -1
+
+
+Listas Aninhadas
+Listas podem aramzenar todos os tipos de objetos 
+Python, portanto podemos ter listas que armazenam outras listas. 
+Com isso podemos criar estruturas bidimensionais (tabelas), e acessar 
+informando os indices de linha e coluna.
+
+ex: matriz 
+
+
+Fatiamento 
+Além de acessar elementos diretamente, podemos extrair um conjunto 
+de valores de uma sequencia. Para isso basta passar o indice inicial e / ou final 
+para acessar o conjunto. Podemos ainda informar quantas posições o cursor deve 'pula' no acesso.
+
+Iterar listas
+A forma mais comum para percorer os dados de uma lista 
+é utilizando o comando for 
+
+Função enumerate 
+Às vezes é necessário saber qual o índice do objeto dentro do laço for.
+Para isso podemos usar a função enumerate. 
+
+Compreensão de listas
+A compreensão de lista oferece uma sintaxe mais curta quando você
+deseja: criar uma nova lsita com base nos valores de uma lista existente(filtro)
+ou gerar uma nova lista aplicando alguma modificação nos elementos de uma lista existente.
+

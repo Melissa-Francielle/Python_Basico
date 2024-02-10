@@ -1,0 +1,27 @@
+Operadores de comparação 
+
+o que são?
+são operadores utilizados para comparar dois valores
+
+curso = "Curso do python"
+nome_curso = curso
+a vairavel nome curso recebe a variavel curso atribuida a ela
+
+saldo, limite = 200, 200
+saldo recebe 200 e limite também recebe 200
+
+curso is nome_curso 
+#true 
+Então quando se quer comparar se a variavel ocupa o mesmo
+espaço de memoria da outra variavel 
+
+curso is not nome_curso
+#false
+
+saldo is limite
+#true
+
+o operador de identidade é o operador "IS"
+
+"Is not" é o operador de comparação quando que
+r saber quando não ta ocupando aquela memoria

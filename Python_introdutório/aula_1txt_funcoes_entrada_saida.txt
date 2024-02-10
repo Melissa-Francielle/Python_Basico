@@ -1,0 +1,22 @@
+#lendo valores com função input 
+
+input 
+A função builtin input é utilizada quando queremos ler 
+dados da entrada padrão (teclado). Ela recebe um argumento do tipo 
+string, que é exibido para o usuario na saida padrao(tela). A funcao le a entrada
+converte para string e retorna o valor 
+
+exibindo valores com a função print
+A função builtin print e utilizada quando queremos exibir 
+dados na saida padrao. Ela recebe um argumento obrigatorio do tipo varargs de objeto 
+e 4 argumentos opcionais (sep, end, file e flush). Todos os objetos são 
+convertidos para string separados por sep e terminados por end.
+A string final é exibida para o usuario 
+
+
+print(nome, sobrenome) - normalmente vai
+
+print(nome, sobrenome, end="...\n") - agora aqui pede para terminar em tres pontos e tendo uma quebra de linha
+
+print(nome, sobrenome, sep = "#") - nome, sobrenome e o separado, o separador por nivel padrão 
+ele é vazio, mas é possivel trocar o separador utilizando um jogo da velha

@@ -1,0 +1,56 @@
+Métodos da classe list 
+
+método append 
+lista.append(1)
+lista.append("python")
+lista.append([40, 30, 20])
+armazena cada valor dentro de uma lista e após a impressão ele traz
+todos os valores armazenado em uma lista única
+
+Método clear
+
+utilizado quando se quer limpar a lista
+
+
+comando copy 
+Para evitar mudanças dentro da lista quando passada para uma função 
+é utilizado o comando copy, retorna a lista igual, mas com uma instancia diferente 
+O que é feito nessa instancia não afeta a instancia original 
+
+
+Metodo count 
+conta quantas vezes aparece um valor na sua Lista 
+
+método extend
+quando voce quer adicionar novos elementos como por exemplo querer juntar duas listas ao inves de por um 
+por um. Mas ele não exclue valores iguais. 
+Ele executa mesmo tendo esses elementos iguais em ambas as listas
+
+método index
+Descobre a ocorrencia do objeto, onde achar o objeto, como a posição dele
+encontra a primeira ocorrencia do objeto na lista. 
+Se caso tenha duas ocorrencia do objeto dentro da lista então ele vai retornar a primeira 
+
+método pop 
+A lista já vem organizada com o conceito de pilha 
+O comportamento de pilha é o comportamente de lista em python 
+Quando utilizamos append os elementos são adicionados no fim da lista
+Agora quando se  utiliza o pop ele tira o ultimo elemento que foi adicionado
+
+metodo remove 
+Outra forma de retirar um elemento da lista, mas ao inves de se passar o indice
+passasse o objeto que gostaria de remover 
+Se houve objetos repetidos, ele vai remover apenas a primeira ocorrencia que ele encontrar
+
+método reverse
+espelha a lista 
+
+método sort 
+ele ordena a lista dependendo da forma que se implementa ela 
+
+função len 
+O len tira tamanho das coisas
+
+sorted 
+Uma função biult in, o sorted ela serve para ordenar interaveis 
+Basicamente a mesma coisa do sort, o que difere os dois é que sorted é uma função 

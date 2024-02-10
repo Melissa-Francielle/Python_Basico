@@ -1,0 +1,20 @@
+Em python temos 3 formas de interpolar variaveis
+em string
+A primeira é usando o sinal % 
+A segunda é usando o método format 
+A terceira é utilizando f strings
+
+a primeira forma não é atualmente recomendada 
+e seu uso em python é raro, por esse motivo iremos focar nas 2 ultimas 
+Muito parecido % com as questões de C no scanf 
+
+
+o ruim desse metodo com porcentagem seria o esquecimento de colocar na ordem certa as variavies
+sem contar o numero enorme de possiveis variaveis na frase
+
+O metodo format 
+print("Ola, me chamo {}. Eu tenho {} anos de idade, trabalho como {} e meu idioma eh {}.".format(nome, idade, profissao, idioma))
+abre e fecha chaves apenas onde gostaria de colocar as variaveis 
+
+print("Ola, me chamo {3}. Eu tenho {2} anos de idade, trabalho como {1} e meu idioma eh {0}.".format(idioma, profissao, idade, nome))
+Unica diferente, traz uma capacidade de formatação, coloca a posição que voce quer colocar na string 

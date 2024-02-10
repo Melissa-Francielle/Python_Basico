@@ -1,0 +1,45 @@
+Criação e acesso aos dados 
+
+Tuplas são estruturas de dados muito parecidas com as listas, a 
+principal diferença é que tuplas sã imutaveis enquanto listas são mutaveis.
+Podemos criar tuplas através da classe tuple, ou colocando valores separados  
+por virgula de parenteses. 
+
+Não pode ser alterado os valores da tupla 
+
+Acesso direto 
+A tupla é uma sequencia, portanto podemos acessar
+seus dados utilizando indices. Contamos o indices de determinada sequencia 
+a partir do zero 
+
+indices negativos 
+sequencia suportam indexação negativa. A contagem começa em -1
+
+tuplas Aninhadas 
+tupls podem armazenar todos os tipos de objetos Python, 
+portanto podemos ter tuplas que armazenam outras tuplas. 
+Com isso podemos criar estruturas bidimensionais (tabelas), e 
+acessar informando os indices de linha e coluna 
+
+Mas para quê usar tuplas se eu posso usar listas?
+
+quando se usa tuplas, voce quer garantir que o valor não será alterado 
+
+Além de acessar elementos diretamente, podemos extrair um conjunto 
+de valores de uma sequencia. Para isso basta passar o indice inicial e / ou final 
+para acessar o conjunto. Podemos ainda informar quantas posições o cursor deve 'pula' no acesso.
+
+Iterar listas
+A forma mais comum para percorer os dados de uma lista 
+é utilizando o comando for 
+
+Função enumerate 
+Às vezes é necessário saber qual o índice do objeto dentro do laço for.
+Para isso podemos usar a função enumerate. 
+
+Compreensão de listas
+A compreensão de lista oferece uma sintaxe mais curta quando você
+deseja: criar uma nova lsita com base nos valores de uma lista existente(filtro)
+ou gerar uma nova lista aplicando alguma modificação nos elementos de uma lista existente.
+
+Métodos da classe tuple 

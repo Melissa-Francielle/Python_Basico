@@ -1,0 +1,3 @@
+Fatiamente de string é uma tenica utilizada 
+para retornar substrings (partes da string original), informando inicio(Start)
+fim (stop) e passo (step): [star:stop[,stop]].

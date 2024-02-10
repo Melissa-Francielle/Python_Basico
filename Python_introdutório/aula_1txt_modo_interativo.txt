@@ -1,0 +1,48 @@
+##Como usar o modo interativo 
+
+##usando o modo interativo
+#o interretador python pode executar emmodo
+# que possibilite o desenvolver a escrever código
+#e ver resultado na hora
+
+#existem duas formas de iniciar o modo interativo 
+#chamando apenas o interpretador (python) ou executando o script
+#com a flag-i (python -i app.py)
+
+#____________________________________
+##Clicar em novo terminal (ctrl+shift+') e escrever python logo o comando faz com que
+#entre no modo interativo.
+#Para sair do modo interativo é só escrever exit()
+#_________________________________________
+###No terminal novamente, escrever python -i nome do arquivo que quer se executar
+
+
+#funções dir e help 
+#dir - sem argumentos, retorna a lista de nomes
+#no escopo local atual. Com um argumento, retorna a lista de atributos válidos 
+#para objeto
+#dir() ou dir(100)
+
+#dir
+##abrindo novo terminal - escreve python- e escreve dir()
+#tudo que é declarado sera escrito pelo dir 
+
+#é possivel a quantidade de metodos que possui no dir(100)
+
+#help 
+#invoca um sistema de ajuda integrado
+#é possivel fazer buscas em modo interativo ou informar por parametro
+##qual o nome do módulo, função, classe, método ou variavel:
+#help()
+torna possivel a pesquisa por exemplo 
+help> int - ele traz a classe int e ter todos os metodos que podem ser utilizados na classe int
+
+#help(100)
+
+para sair clica em q ele vai sair da documentação 
+e assim clica em enter para escrever mais alguma coisa, ou exit() para sair da função python
+
+##Referencias
+#http://wiki.python.org.br/ModoInterativo
+
+

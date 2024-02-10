@@ -1,0 +1,8 @@
+o QUE SÃO? 
+São operadores utilizados em conjuntos com os operadores
+de comparação, para montar uma expressão lógica. Quando um 
+operador de comparação é utilizado, o resultado, retornado 
+é um booleano, dessa forma podemos combinar operadores
+de comparação com os operadores lógicos, exemplos
+
+op_comparação + op_logico + op_comparacao...N...

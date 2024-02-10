@@ -1,0 +1,17 @@
+criando dicionarios 
+
+Um dicionario é um conjunto nao-ordernado de pares chaves:
+valor, onde as chaves são unicas em uma dada instancia do dicionario. Dicionario são delimitados
+por chaves: {}, e contém uma lista de pares chave: valor separada por virgulas 
+
+acesso aos dados
+os dados são acessados e modificados através da chave 
+
+Dicionario Aninhados 
+Dicionarios podem armazenar qualquer tipo de objeto Python 
+como valor, desde que a chave para esse valor seja um objeto imutaveis como (strings e numeros)
+
+Dicionario tem uma estrutura muito parecida com banco de dados
+
+Interar Dicionarios
+a forma mais comum é percorrer utilizando for 

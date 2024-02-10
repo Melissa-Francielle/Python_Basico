@@ -1,0 +1,66 @@
+#váriaveis e constantes
+
+#o que sao variaveis e constantes 
+##variavies
+###Em liguagem de programação podemos definir valores 
+####que podem sofrer alterações no decorrer da execução do programa
+#####Esses valores recebem o nome de variaveis, pois eles nascem com um valor e não 
+######necessariamente devem permanecer com o mesmo durante a execução do programa
+#ex:
+age = 21
+name = 'Melissa'
+print(f'Meu nome é {name} e eu tenho {age} anos de idade')
+
+age, name = (21, 'Melissa')
+print(f'Meu nome é {name} e eu tenho {age} anos de idade.')
+
+#Alterando valores
+#Perceba que não precisamos definir o tipo de dados da variavel
+##O python faz isso automaticamente para nós. Por isso 
+#não podemos simplemesnte criar uma variavel sem atribuir um valor. Para alterar 
+#o valor da variavel basta fazer uma atribuição de um novo valor
+##ex
+age = 21 ##age faz parte de um inteiro 
+name = 'Melissa' #string
+print(f'Meu nome é {name} e eu tenho {age} anos de idade')
+
+age = 29
+name = 'Thais'
+print(f'Meu nome é {name} e eu tenho {age} anos de idade')
+##################################
+#constantes
+##Assim como as variaveis, constantes são utilizadas para armazenar valores
+###uma constante nasce com um valor e permanece com ele até o final da execução 
+####do programa, ou seja, o valor é imutavel
+#ex:
+age = 21 ##valores mutaveis 
+name = 'Melissa'##mutavel 
+print(f'Meu nome é {name} e eu tenho {age} anos de idade')
+#quando um valor é imutavel?
+#não pode ser alterado o valor de age, uma vez que 
+##age é 28 ele vai terminar a execução do programa com 28
+
+#######################################################################
+#Python não tem constantes
+##Não existe uma palavra reservada para informar ao interpretador 
+###que o valor é constante. Em algumas linguagens por ex: Java e C utilizamos 
+####final e const, respectivamente para declarar uma constante.
+
+#Em python usamos a convenção que diz ao programador que a variael é constante
+#Para fazer isso, voce deve criar a variavel com o nome todo em letras maisuculas
+
+#ex:
+ABS_PATH = 'C:\Users\Note\3D Objects\Estudos\Faculdade\LINGUAGENS(OFF)\.vscode'
+DEBUG = True
+STATES = [
+    'SP',
+    'RJ',
+    'MG',
+]
+AMOUNT = 30.2
+
+#boas praticas
+##o padrão de nomes deve ser snake case (preco_total)
+###Escolher nomes sugestivos 
+####nome de constante todo em maiusculo 
+##### 

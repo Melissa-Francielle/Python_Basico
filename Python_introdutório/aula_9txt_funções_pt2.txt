@@ -1,0 +1,31 @@
+Parametros especiais
+
+por padrãos, argumentos podem ser passados para uma função 
+Python tanto por posição quanti explicitamente pelo nome. 
+Par auma melhor legibilidade e desempenho, faz sentido restringir a 
+maenira pelo qual argumentos possam ser passados, assim 
+um desenvolvedor precisa apenas olhar para definição da função para determinar 
+se os itens são passados por posição, por posição e nome, ou por nome.
+
+def f(pos1, pos2 /, pos_or_kwd, *, kwd1, kwd2):
+
+pos1, pos2  - apenas posição
+pos_or_kwd, - posição ou chave
+kwd1, kwd2 - apenas a chave
+Tudo que esta até a barra é apenas posição 
+Depois do asterisco é apenas por chave 
+
+Objetos de primeira classe
+Em python tudo é objeto, dessa forma, funções também são 
+objetos o que as tornam objetos na primeira classe. Com isso 
+atribuir funções a variaveis, passa-las como paramentro para funções 
+usa-las como valores em estrutura de dados(lista, tuplas, dicionarios) e usar como 
+valor de retorno para uma função (closures)
+
+Escopo local e escopo global 
+Python trabalha com escopo local e global, dentro do bloco 
+da função, o escopo é local. Portanto alterações ali feitas em objetos
+imutaveis serão perdidas quando o método termiar de ser executado. Para usar objetos 
+globais utilizamos a palavra-chave global, que informa ao interpretador que a variavel 
+que esta sendo manipulada no escopo local é global 
+Essa não é uma boa pratica e deve ser evitada

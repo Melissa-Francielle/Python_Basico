@@ -1,0 +1,44 @@
+método clear 
+apaga todos os valores do dicionario 
+
+metodo copy 
+tira uma copia do dicionario 
+
+fromkeys 
+cria chave para voce em duas situações 
+a primeira é quando quer criar uma apenas sem atribuir valores 
+a segunda é quando quer criar um conjunto de chaves e quer colocar um valor padrão 
+
+get - segunda forma de acessar valores dentro de um dicionarios 
+pode ser usado para quando não se tem certeza se a chave existe ou nao 
+
+items 
+retornar uma lista de tuplas 
+bom para usar quando for usar um comando for para se interar dos valores do dicionario 
+
+keys 
+retorna so a chave do dicionario 
+
+pop 
+o pop remove um valor do seu dicionario, ele remove um chave do dicionario 
+
+popitem
+a diferença é que ele não precisa ter a chave na informação, e se não tiver mais chave ele devolve vazio 
+
+setdefault 
+Se o atributo não estiver no dicionario ele adiciona com o valor colocado.
+Mas caso o valor tenha no dicionario e tenha um outro valor para alterar, ele não vai alterar
+
+
+uptade 
+Como o proprio nome já diz, ele vai atualizar, dar um update.
+Deixando a gente atualizar o diocionario com outro diocionario 
+
+values 
+o método que retorna todos os valores dos dicionarios amarrados a chave
+
+in 
+Verifica que uma chave existe ou não 
+
+del
+outra forma de tirar um objeto 
